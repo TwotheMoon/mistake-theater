@@ -64,10 +64,10 @@ function Main() {
         <>
             <Container>
                 <Img>
-                    <img src="/img/mistake.jpg"></img>
+                    <img src="./img/mistake.jpg"></img>
                 </Img>
                 <MapContainer>
-                    <img className="maker" src="/img/maker.png"></img>
+                    <img className="maker" src="./img/maker.png"></img>
                     <span> 오시는 길</span>
                     <div id='myMap' style={{
                         width: '100%',
