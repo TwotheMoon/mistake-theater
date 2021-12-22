@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/mistake-theater/static/js/main.60eec1ca.chunk.js",
+    "main.js.map": "/mistake-theater/static/js/main.60eec1ca.chunk.js.map",
+    "runtime-main.js": "/mistake-theater/static/js/runtime-main.45c30157.js",
+    "runtime-main.js.map": "/mistake-theater/static/js/runtime-main.45c30157.js.map",
+    "static/js/2.78e06e44.chunk.js": "/mistake-theater/static/js/2.78e06e44.chunk.js",
+    "static/js/2.78e06e44.chunk.js.map": "/mistake-theater/static/js/2.78e06e44.chunk.js.map",
+    "index.html": "/mistake-theater/index.html",
+    "static/js/2.78e06e44.chunk.js.LICENSE.txt": "/mistake-theater/static/js/2.78e06e44.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45c30157.js",
+    "static/js/2.78e06e44.chunk.js",
+    "static/js/main.60eec1ca.chunk.js"
+  ]
+}
