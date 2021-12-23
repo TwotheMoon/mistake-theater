@@ -37,8 +37,10 @@ const MapContainer = styled.div`
 const GetTicket = styled.div`
         font-weight: 400;
         font-size: 30px;
-        margin-bottom: 50px;
+        background-color: rgba(94, 178, 84, 0.3);
+        padding-bottom: 10px;
         img{
+            margin-top: 20px;
             width: 81px;
             height: 20px;
         }
@@ -85,11 +87,11 @@ function Main() {
                         height: '400px'
                     }}>
                     </div>
-                    <GetTicket>
-                        <a href="https://www.playticket.co.kr/m/nav/detail.html?idx=1686">
+                    <a href="https://www.playticket.co.kr/m/nav/detail.html?idx=1686">
+                        <GetTicket>
                             <img src={`${process.env.PUBLIC_URL}/img/ptLogo.png`}></img> 예매하기!
-                        </a>
-                    </GetTicket>
+                        </GetTicket>
+                    </a>
                 </MapContainer>
             </Container>
         </>
