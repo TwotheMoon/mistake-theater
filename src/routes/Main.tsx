@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const Container = styled.div`
     max-width: 100%;
@@ -30,9 +30,20 @@ const MapContainer = styled.div`
    }
    #myMap{
        margin-top: 20px;
-       margin-bottom: 40px;
+       margin-bottom: 20px;
    }
 `;
+
+const GetTicket = styled.div`
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 50px;
+        img{
+            width: 81px;
+            height: 20px;
+        }
+`;
+
 
 
 function Main() {
@@ -64,16 +75,21 @@ function Main() {
         <>
             <Container>
                 <Img>
-                    <img src="./img/mistake.jpg"></img>
+                    <img src={`${process.env.PUBLIC_URL}/img/mistake.jpg`}></img>
                 </Img>
                 <MapContainer>
-                    <img className="maker" src="./img/maker.png"></img>
+                    <img className="maker" src={`${process.env.PUBLIC_URL}/img/maker.png`}></img>
                     <span> 오시는 길</span>
                     <div id='myMap' style={{
                         width: '100%',
                         height: '400px'
                     }}>
                     </div>
+                    <GetTicket>
+                        <a href="https://www.playticket.co.kr/m/nav/detail.html?idx=1686">
+                            <img src={`${process.env.PUBLIC_URL}/img/ptLogo.png`}></img> 예매하기!
+                        </a>
+                    </GetTicket>
                 </MapContainer>
             </Container>
         </>
